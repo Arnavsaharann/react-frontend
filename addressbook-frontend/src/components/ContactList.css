@@ -1,0 +1,109 @@
+.container {
+    min-height: 100vh;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+}
+
+.card-header {
+    background-color: #1e90ff;
+    color: #ffffff;
+    text-align: center;
+    padding: 16px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 24px;
+}
+
+.card-body h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.error-message {
+    color: #ff0000;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.contact-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.contact-table th,
+.contact-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #e0e0e0;
+}
+
+.contact-table th {
+    background-color: #b0e0e6;
+    font-weight: bold;
+}
+
+.contact-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.contact-table tr:hover {
+    background-color: #f0f0f0;
+}
+
+.no-data {
+    text-align: center;
+    padding: 20px;
+    color: #666666;
+}
+
+.edit-button {
+    background-color: #1e90ff;
+    color: #ffffff;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #187bcd;
+}
+
+.delete-button {
+    background-color: #ff4444;
+    color: #ffffff;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #cc0000;
+}
